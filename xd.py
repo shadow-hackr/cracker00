@@ -157,10 +157,11 @@ def banner():
   \___ \| '_ \ / _` |/ _` |/ _ \ \ /\ / /   > <     / /\ \ | | |
   ____) | | | | (_| | (_| | (_) \ V  V /   / . \   / ____ \| | |
  |_____/|_| |_|\__,_|\__,_|\___/ \_/\_/   /_/ \_\ /_/    \_\_|_|
-                                                                
-                                                                
+      SHADOW X SARA    SHADOW X ARSLAN                                                   
+       SHADOW X ALI
+     
 
-│                                          VERSI 2.0.               │
+│                      VERSI 2.0.                          │
 └─────────────────────────────────────────────────────────────┘
 AUTHOR : Shadow Hacker
 GITHUB : github.com/Mafia320\n"""+h+line)
@@ -211,11 +212,11 @@ def bot():
 
 def menu():
 	try:
-		os.mkdir("Results_Cp")
+		os.chechkpoint("Results_Cp")
 	except:
 		pass
 	try:
-		os.mkdir("Results_Ok")
+		os.ok ("Results_Ok")
 	except:
 		pass
 	clear()
@@ -251,7 +252,7 @@ def menu():
 	print(h+"{"+k+"8"+h+"}"+l+" Cek Result Crack")
 	print(h+"{"+k+"9"+h+"}"+l+" Setting Theme")
 	print(h+"{"+k+"0"+h+"}"+l+" Logout")
-	sayangku = input("\n"+balmond+l+" Pilih : ")
+	sayangku = input("\n"+balmond+l+" Choose : ")
 	if sayangku=="1" or sayangku=="01":
 		publik()
 	elif sayangku=="2" or sayangku=="02":
@@ -296,7 +297,7 @@ def tema():
 		time.sleep(0.5)
 		exit()
 	elif pilih=="2" or pilih=="02":
-		awm = open("tema.txt","w");awm.write("kuning");awm.close()
+		awm = open("tema.txt","w");awm.write("Yellow");awm.close()
 		print("\n"+balmond+l+" Theme Successfully Apply")
 		jalan(balmond+l+" Retrun the Script...")
 		time.sleep(0.5)
@@ -326,7 +327,7 @@ def result():
 	print(h+"\n{"+k+"1"+h+"}"+l+" Cek Result CP")
 	print(h+"{"+k+"2"+h+"}"+l+" Cek Result OK")
 	print(h+"{"+k+"0"+h+"}"+l+" Return")
-	pilih = input("\n"+balmond+l+" Pilih : ")
+	pilih = input("\n"+balmond+l+" Choose : ")
 	if pilih=="1" or pilih=="01":
 		try:
 			lisaa = os.listdir("ruslt_Cp")
@@ -439,7 +440,7 @@ def dump_old2():
         try:
                 nada = int(input("\n"+balmond+l+" How much do you want to crack?  ID : "))
                 if nada>10:
-                        jalan(balmond+m+" Maximum 10 ID")
+                        jalan(balmond+m+" Maximum 15 ID")
                         time.sleep(0.5)
                         dump_old2()
         except ValueError:
@@ -526,7 +527,7 @@ def dump_old():
         try:
                 nada = int(input("\n"+balmond+l+" How much do you want to crack?  ID : "))
                 if nada>10:
-                        jalan(balmond+m+" Maximum 10 ID")
+                        jalan(balmond+m+" Maximum 15 ID")
                         time.sleep(0.5)
                         dump_old()
         except ValueError:
@@ -692,7 +693,7 @@ def massal():
 	try:
 		nada = int(input("\n"+balmond+l+" How much ID do you want to take?  : "))
 		if nada>10:
-			jalan(balmond+m+" Maximum 10 ID")
+			jalan(balmond+m+" Maximum 15 ID")
 			time.sleep(0.5)
 			massal()
 	except ValueError:
